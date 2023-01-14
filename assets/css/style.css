@@ -1,0 +1,99 @@
+* {
+  background-color: #acf5cc;
+  font-family: "Roboto", sans-serif;
+}
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0 0.5rem 0;
+}
+.header__img {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1rem;
+  background: url("/img/Captura.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar {
+  width: 80%;
+}
+.navbar__list {
+  height: 3rem;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.navbar__list a {
+  font-size: .95rem;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0.75rem;
+}
+.navbar__list a:hover {
+  color: blueviolet;
+  transition: ease-in 0.3s;
+}
+
+/* main */
+.main {
+  width: 100%;
+  height: 80vh;
+}
+.mainTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.mainTitle span {
+  color: lightblue;
+}
+
+/*FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: gray;
+  text-align: center;
+}
+.footer-content h2 {
+  font-size: 1rem;
+  color: black;
+}
+.footer-content h5 {
+  font: size 0.5rem;
+}
+.social-network i {
+  font-size: 2rem;
+}
+.social-network i:hover {
+  transform: translateY(-0.5rem);
+  transition: ease-in-out 0.5s;
+}
+.social-network {
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+}
+
+/* LoGIN */
+body header{
+  display: flex;
+}
+nav.navbar{ 
+  justify-content: flex-end;
+}
+.form{
+  width: 50%;
+  margin: 1rem auto;
+}
